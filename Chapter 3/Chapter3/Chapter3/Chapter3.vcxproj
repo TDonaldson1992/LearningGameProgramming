@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FD77818A-577C-459D-AEE6-558658A1CC82}</ProjectGuid>
+    <ProjectGuid>{A639A656-D76C-4329-9455-A2C43B60A4DB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Chapter2</RootNamespace>
+    <RootNamespace>Chapter3</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,16 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source2_1.cpp" />
-    <ClCompile Include="Source2_10.cpp" />
-    <ClCompile Include="Source2_2.cpp" />
-    <ClCompile Include="Source2_3.cpp" />
-    <ClCompile Include="Source2_4.cpp" />
-    <ClCompile Include="Source2_5.cpp" />
-    <ClCompile Include="Source2_6.cpp" />
-    <ClCompile Include="Source2_7.cpp" />
-    <ClCompile Include="Source2_8.cpp" />
-    <ClCompile Include="Source2_9.cpp" />
+    <ClCompile Include="Source3_1.cpp" />
+    <ClCompile Include="Source3_2.cpp" />
+    <ClCompile Include="Source3_3.cpp" />
+    <ClCompile Include="Source3_4.cpp" />
+    <ClCompile Include="Source3_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,38 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="OldSourceFiles">
-      <UniqueIdentifier>{ecf91f1d-6172-4a3c-aa0b-cda77f90e2c1}</UniqueIdentifier>
+      <UniqueIdentifier>{99cf177c-35d2-426c-80ca-1a5e8f2b48a1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source2_1.cpp">
+    <ClCompile Include="Source3_1.cpp">
       <Filter>OldSourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Source2_2.cpp">
+    <ClCompile Include="Source3_2.cpp">
       <Filter>OldSourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Source2_3.cpp">
+    <ClCompile Include="Source3_3.cpp">
       <Filter>OldSourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Source2_4.cpp">
+    <ClCompile Include="Source3_4.cpp">
       <Filter>OldSourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Source2_5.cpp">
-      <Filter>OldSourceFiles</Filter>
-    </ClCompile>
-    <ClCompile Include="Source2_6.cpp">
-      <Filter>OldSourceFiles</Filter>
-    </ClCompile>
-    <ClCompile Include="Source2_7.cpp">
-      <Filter>OldSourceFiles</Filter>
-    </ClCompile>
-    <ClCompile Include="Source2_8.cpp">
-      <Filter>OldSourceFiles</Filter>
-    </ClCompile>
-    <ClCompile Include="Source2_9.cpp">
-      <Filter>OldSourceFiles</Filter>
-    </ClCompile>
-    <ClCompile Include="Source2_10.cpp">
+    <ClCompile Include="Source3_5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

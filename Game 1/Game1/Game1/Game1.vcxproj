@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FD77818A-577C-459D-AEE6-558658A1CC82}</ProjectGuid>
+    <ProjectGuid>{E0CEB2CC-489D-4155-87BC-870FBCAC883A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Chapter2</RootNamespace>
+    <RootNamespace>Game1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,16 +78,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source2_1.cpp" />
-    <ClCompile Include="Source2_10.cpp" />
-    <ClCompile Include="Source2_2.cpp" />
-    <ClCompile Include="Source2_3.cpp" />
-    <ClCompile Include="Source2_4.cpp" />
-    <ClCompile Include="Source2_5.cpp" />
-    <ClCompile Include="Source2_6.cpp" />
-    <ClCompile Include="Source2_7.cpp" />
-    <ClCompile Include="Source2_8.cpp" />
-    <ClCompile Include="Source2_9.cpp" />
+    <ClCompile Include="Managers\DirectoryManager.cpp" />
+    <ClCompile Include="Managers\FileManager.cpp" />
+    <ClCompile Include="Serialization\tinyxml2.cpp" />
+    <ClCompile Include="Serialization\XMLSerialization.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="User\User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Managers\DirectoryManager.h" />
+    <ClInclude Include="Managers\FileManager.h" />
+    <ClInclude Include="Serialization\tinyxml2.h" />
+    <ClInclude Include="Serialization\XMLSerialization.h" />
+    <ClInclude Include="User\User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

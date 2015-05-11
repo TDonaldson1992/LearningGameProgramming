@@ -1,0 +1,4 @@
+<SerializableClass Type="Users" Version="2.1">
+    <Member Name="Username">tdonaldson</Member>
+    <Member Name="Password">diving1!</Member>
+</SerializableClass>
