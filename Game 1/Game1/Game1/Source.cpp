@@ -42,10 +42,11 @@ int main()
 		cout << "Enter your password: ";
 		cin >> password;
 
-
 		user->SetPassword(password);
 		user->SetUsername(username);
+		user->SetUserId(1);
 
+	
 		cout << "Writing to file..." << endl << endl;
 		fm->WriteUserXMLFile(user->toXML());
 	}

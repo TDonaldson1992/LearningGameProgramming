@@ -15,16 +15,20 @@ namespace Game1_User
 	class User: public Serializable
 	{
 	private:
+		xInt mUserId;
 		xString mUsername;
 		xString mPassword;
 	protected:
 	public:		
 		User();
 		User(xString, xString);
+		User(xInt, xString, xString);
 
+		xInt GetUserId();
 		xString GetUsername();
 		xString GetPassword();
 
+		void SetUserId(xInt);
 		void SetUsername(xString);
 		void SetPassword(xString);
 	

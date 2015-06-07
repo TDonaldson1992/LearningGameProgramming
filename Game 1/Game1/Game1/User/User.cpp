@@ -11,6 +11,7 @@ using std::time_t;
 using namespace xmls;
 
 User::User() {
+	mUserId = -1;
 	mUsername = "";
 	mPassword = "";
 
@@ -18,10 +19,23 @@ User::User() {
 }
 
 User::User(xString Username, xString Password) {
+	mUserId = -1;
 	mUsername = Username;
 	mPassword = Password;
 
 	RegisterXML();
+}
+
+User::User(xInt UserId, xString Username, xString Password) {
+	mUserId = UserId;
+	mUsername = Username;
+	mPassword = Password;
+
+	RegisterXML();
+}
+
+xInt User::GetUserId() {
+	return mUserId;
 }
 
 xString User::GetUsername() {
@@ -32,6 +46,9 @@ xString User::GetPassword() {
 	return mPassword;
 }
 
+void User::SetUserId(xInt UserId) {
+	mUserId = UserId;
+}
 
 void User::SetUsername(xString Username) {
 	mUsername = Username;
@@ -43,6 +60,7 @@ void User::SetPassword(xString Password) {
 
 void User::RegisterXML() {
 	setClassName("Users");
+	Register("UserId", &mUserId);
 	Register("Username", &mUsername);
 	Register("Password", &mPassword);
 	setVersion("2.1");
